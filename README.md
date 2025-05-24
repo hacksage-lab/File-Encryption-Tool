@@ -41,30 +41,30 @@ You will be prompted to enter and confirm an encryption password.
 
 Decrypt a file:
 bash
-
+```
 python file_encryptor.py aes-decrypt output.enc decrypted.txt
-
+```
 You will be prompted to enter the decryption password.
 RSA Key Management
 
 Generate RSA key pair:
 bash
-
+```
 python file_encryptor.py rsa-gen private_key.pem public_key.pem [--size 2048]
-
+```
 Optional --size parameter specifies key size in bits (default: 2048).
 RSA Encryption/Decryption
 
 Encrypt a file with RSA (for small files):
 bash
-
+```
 python file_encryptor.py rsa-encrypt small_file.txt encrypted.rsa public_key.pem
-
+```
 Decrypt a file with RSA:
 bash
-
+```
 python file_encryptor.py rsa-decrypt encrypted.rsa decrypted.txt private_key.pem
-
+```
 Security Notes
 
     Password Strength: Use strong passwords for AES encryption (minimum 12 characters, mix of character types)
