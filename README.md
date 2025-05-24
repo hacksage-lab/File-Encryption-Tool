@@ -42,7 +42,7 @@ You will be prompted to enter and confirm an encryption password.
 
 istalling
 ```
-git clone https://github.com/hacksage-lab/phonesage
+git clone https://github.com/hacksage-lab/File-Encryption-Tool
 ```
 
 Decrypt a file:
