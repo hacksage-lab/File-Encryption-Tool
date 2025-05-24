@@ -39,6 +39,12 @@ python file_encryptor.py aes-encrypt input.txt output.enc
 
 You will be prompted to enter and confirm an encryption password.
 
+
+istalling
+```
+git clone https://github.com/hacksage-lab/phonesage
+```
+
 Decrypt a file:
 bash
 ```
